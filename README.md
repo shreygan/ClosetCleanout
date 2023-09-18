@@ -79,6 +79,8 @@ A web application for clothing. Utilizes JSP, JSF/Servlets and a Java DB databas
     </div>
 </div>
 
+## SQL Tables
+
 ### Users
 | Variable        | Type |
 | :---------------- | :------ |
