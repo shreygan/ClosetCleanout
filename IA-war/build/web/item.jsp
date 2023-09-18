@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+
         <% 
             User u = new User();
             
@@ -15,9 +15,9 @@
             
             ItemNode item = items.get(0);
             
-            for (int j = 1; j <= items.size(); j++) {
-                if (items.get(j - 1).getId() == Integer.parseInt(request.getParameter("id")) - 1) {
-                    item = items.get(j - 1);
+            for (int j = 0; j < items.size(); j++) {
+                if (items.get(j).getId() == Integer.parseInt(request.getParameter("id"))) {
+                    item = items.get(j);
                     break;
                 }
             }

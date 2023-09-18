@@ -62,7 +62,8 @@
         <%
             for (int j = 1; j <= items.size(); j++) {                                   
                 if (items.get(j-1).isSold()) {
-                    %> <div class="bruh"> <div class="images" href="item.jsp?id=<%=j+12%>"> <a href="item.jsp?id=<%=j+12%>" style=""> <img src="${pageContext.request.contextPath}/images/<%=j+12%>/1" height="200px" class="image"></a> 
+                    int id = items.get(j-1).getId();
+                    %> <div class="bruh"> <div class="images" href="item.jsp?id=<%=id%>"> <a href="item.jsp?id=<%=id%>" style=""> <img src="${pageContext.request.contextPath}/images/<%=id%>/1" height="200px" class="image"></a> 
                     <p class="text"> <%
                     out.println("$" + items.get(j - 1).getPrice() + "<br>");
                     out.println("Condition: " + items.get(j - 1).getCondition() + "/5 <br>");
@@ -70,6 +71,7 @@
                     %>          
                         </p> 
                         <form action="solditems.jsp" method="post">
+                            <input type="hidden" name="itemId" value="<%= j-1 %>">
                             <div class="change">
                                 <input type="submit" value="List Again?" name="markSold"/>
                                 <input type="submit" value="Remove Listing?" name="removeListing"/> 
@@ -81,10 +83,12 @@
             }    
 
             if (request.getParameter("markSold") != null) {
-                items.get(0).markAsNotSold();
+                items.get(Integer.parseInt(request.getParameter("itemId"))).markAsNotSold();
                 response.setHeader("REFRESH", "0");
             } else if (request.getParameter("removeListing") != null) {
-                items.remove(0);
+                i.removeItem(Integer.parseInt(request.getParameter("itemId")));
+//                items.remove(items.get(Integer.parseInt(request.getParameter("itemId"))));
+                items.remove(Integer.parseInt(request.getParameter("itemId")) - 1);
                 response.setHeader("REFRESH", "0");
             }
         %>

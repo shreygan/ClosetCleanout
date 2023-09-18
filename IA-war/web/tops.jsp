@@ -64,7 +64,8 @@
             for (int j = 1; j <= items.size(); j++) {       
             
                 if (!items.get(j-1).isSold() && items.get(j-1).getType().equals("top")) {
-                    %> <div class="bruh"> <div class="images" href="item.jsp?id=<%=j+12%>"> <a href="item.jsp?id=<%=j+12%>" style=""> <img src="${pageContext.request.contextPath}/images/<%=j+12%>/1" height="200px" class="image"></a> 
+                    int id = items.get(j-1).getId();
+                    %> <div class="bruh"> <div class="images" href="item.jsp?id=<%=id%>"> <a href="item.jsp?id=<%=id%>" style=""> <img src="${pageContext.request.contextPath}/images/<%=id%>/1" height="200px" class="image"></a> 
                     <p class="text"> <%
                     out.println("$" + items.get(j - 1).getPrice() + "<br>");
                     out.println("Condition: " + items.get(j - 1).getCondition() + "/5 <br>");
