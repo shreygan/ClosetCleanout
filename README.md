@@ -7,6 +7,19 @@
 
 A web application for clothing. Utilizes JSP, JSF/Servlets and a Java DB database in SQL.
 
+## Design
+
+<div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
+    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+        <img src="screenshots/UML Diagram.jpg">
+        <p style="margin-bottom:-10px;"> UML Diagram </p>
+    </div>
+    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+        <img src="screenshots/Flow Chart.jpg">
+        <p style="margin-bottom:-10px;"> Flow Chart </p>
+    </div>
+</div>
+
 ## Pages
 
 <div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
@@ -65,3 +78,38 @@ A web application for clothing. Utilizes JSP, JSF/Servlets and a Java DB databas
         <p style="margin-bottom:-10px;"> Admin Manage Items </p>
     </div>
 </div>
+
+### Users
+| Variable        | Type |
+| :---------------- | :------ |
+| id             |   Integer (non-null, primary key, auto-inc)   |
+| FirstName           |   Varchar(255)   |
+| LastName           |   Varchar(255)   |
+| Email           |   Varchar(255)   |
+| Username           |   Varchar(255)   |
+| Password           |   Varchar(255)   |
+
+### Items
+| Variable        | Type |
+| :---------------- | :------ |
+| id             |   Integer (non-null, primary key, auto-inc)   |
+| Name | Varchar(255) |
+| Type | Varchar(255) |
+| Price | Double |
+| Condition | Integer |
+| Size | Varchar(255) |
+| Brand | Varchar(255) |
+| Link | Varchar(255) |
+| Notes | Varchar(255) |
+| Sold | Boolean |
+| Image1 | Blob |
+| Image2 | Blob |
+| Image3 | Blob |
+| Image4 | Blob |
+| Image5 | Blob |
+
+### SavedItems
+| Variable        | Type |
+| :---------------- | :------ |
+| Username | Varchar(255) |
+| ItemID | Integer |
