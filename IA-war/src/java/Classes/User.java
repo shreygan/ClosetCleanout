@@ -42,7 +42,7 @@ public class User {
         if (user.equals("")) {
             return 2;
         }
-        
+
         try {
             
             if (SQLCon.getIsConn() == false) {

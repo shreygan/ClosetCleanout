@@ -7,6 +7,80 @@
 
 A web application for clothing. Utilizes JSP, JSF/Servlets and a Java DB database in SQL.
 
+## Pages
+
+<details><summary> Main Menu </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+    <img src="screenshots/Main Menu.png">
+</div>
+</details>
+<details><summary> Log In </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+    <img src="screenshots/Log In.png">
+</div>
+</details>
+<details><summary> Create an Account </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+    <img src="screenshots/New Account.png">
+</div>
+</details>
+<details><summary> Tops </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+    <img src="screenshots/Tops.png">
+</div>
+</details>
+<details><summary> Bottoms </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+    <img src="screenshots/Bottoms.png">
+</div>
+</details>
+
+
+
+## User Functionality
+
+<details><summary> Item View </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/User View.gif">
+</div>
+</details>
+
+<details><summary> Create Account </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/User Create Account.gif">
+</div>
+</details>
+
+<details><summary> Log In / Settings </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/User Settings.gif">
+</div>
+</details>
+
+<details><summary> Saved Items </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/User Saved Items.gif">
+</div>
+</details>
+
+
+
+## Admin Functionality
+
+<details><summary> Add Item </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/Admin Add Item.gif">
+</div>
+</details>
+
+<details><summary> Manage Items </summary>
+<div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
+<img src="screenshots/Admin Manage Items.gif">
+</div>
+</details>
+
+
+
 ## Design
 
 <div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
@@ -17,65 +91,6 @@ A web application for clothing. Utilizes JSP, JSF/Servlets and a Java DB databas
     <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
         <img src="screenshots/Flow Chart.jpg">
         <p style="margin-bottom:-10px;"> Flow Chart </p>
-    </div>
-</div>
-
-## Pages
-
-<div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-        <img src="screenshots/Main Menu.png">
-        <p style="margin-bottom:-10px;"> Main Menu </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-        <img src="screenshots/Log In.png">
-        <p style="margin-bottom:-10px;"> Log In </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-        <img src="screenshots/New Account.png">
-        <p style="margin-bottom:-10px;"> Create an Account </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-        <img src="screenshots/Tops.png">
-        <p style="margin-bottom:-10px;"> Tops </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-        <img src="screenshots/Bottoms.png">
-        <p style="margin-bottom:-10px;"> Bottoms </p>
-    </div>
-</div>
-
-
-## User Functionality
-<div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/User View.gif">
-        <p style="margin-bottom:-10px;"> Item View </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/User Create Account.gif">
-        <p style="margin-bottom:-10px;"> User Create Account </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/User Settings.gif">
-        <p style="margin-bottom:-10px;"> User Log In / Settings </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/User Saved Items.gif">
-        <p style="margin-bottom:-10px;"> User Saved Items </p>
-    </div>
-</div>
-
-## Admin Functionality
-
-<div style="overflow-x:scroll; white-space:nowrap; text-align:center;">
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/Admin Add Item.gif">
-        <p style="margin-bottom:-10px;"> Admin Add Item </p>
-    </div>
-    <div style="display:inline-block; margin-right:10px; margin-left:10px; margin-top:10px;">
-    <img src="screenshots/Admin Manage Items.gif">
-        <p style="margin-bottom:-10px;"> Admin Manage Items </p>
     </div>
 </div>
 
